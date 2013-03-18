@@ -1,0 +1,1 @@
+rm -rf out/* && coffee -cm src/*.coffee && node src/test.js clientId clientSecret root
