@@ -1,1 +1,1 @@
-rm -rf out/* && coffee -cm src/*.coffee && node src/test.js clientId clientSecret root
+rm -rf out/* && coffee -cm src/*.coffee && node src/download.js 575608992383-7lqjq4hioienksu4op916abi2j0ae4v1.apps.googleusercontent.com A4uKnvjxUltD_pqiFMV4-q41 root

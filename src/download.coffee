@@ -8,7 +8,7 @@ try
     require('source-map-support').install()
 catch e
 
-{ 1: clientId, 2: clientSecret, 3: folderId } = process.argv
+{ 2: clientId, 3: clientSecret, 4: folderId } = process.argv
 
 if !clientId
     console.log 'node path-to-grivejs/src/download.js clientId clientSecret folderId'
